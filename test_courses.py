@@ -1,6 +1,5 @@
+import course
 
-import courses
+def test_classroom:
+    assert "1411" == course.getNumber("CM214")
 
-def test_room():
-    assert "1411" == courses
-    courses.getRoom("CM241")
