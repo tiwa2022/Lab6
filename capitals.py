@@ -17,9 +17,9 @@ if __name__ =="__main__":
     counter= 0
     dictionary = getCap()
     for province in dictionary.items():
-        inp = input("The province is", {province[0]},".", "What is the capital?")
+        input = input ("The province is" {province[0]}, "What is the capital?")
 
-        if inp == province[1]:
+        if input == province[1]:
             print("That's right!!")
             counter += 1
         else:
